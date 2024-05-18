@@ -1,0 +1,60 @@
+body {
+  height: 300%;
+  background-color: #1c2333;
+}
+
+
+/* The navbar container */
+.bar {
+  overflow: hidden;
+  background-color: #0e1525;
+}
+
+/* Navbar links */
+.bar a {
+  font-family: Cursive;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.bar button {
+  /* إضافة أي تخصيصات ترغب فيها لمظهر الزر */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 16px;
+  right: 20px;
+}
+
+.bar label {
+  color: white;
+  position: fixed;
+  top: 41px;
+  right: 33px;
+}
+
+.material-icons {
+  font-size: 24px;
+  /* تغيير حجم الأيقونة حسب الرغبة */
+  color: darkgrey;
+  /* تغيير لون الأيقونة */
+}
+
+
+.bar img {
+  float: left;
+  width: 7%;
+}
+
+/* Links - change color on hover */
+.bar a:hover {
+  background-color: #1c2333;
+  color: #00ff62;
+}
